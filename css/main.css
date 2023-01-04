@@ -1,0 +1,100 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-image: url('https://source.unsplash.com/1920x1080/?Egypt');
+}
+
+.parent {
+  color: #fff;
+  width: 300px;
+  padding: 35px;
+  border-radius: 33px;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000d0;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  top: -52px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background: #fc0000;
+  padding: 3px 10px;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+
+.message span {
+  font-weight: bold;
+}
+
+.not-valid {
+  display: block;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  left: -8px;
+  font-size: 22px;
+}
+
+p {
+  margin: 0;
+}
+
+.country {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 4px 16px;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 17px;
+  font-family: inherit; 
+}
+
+.inputs > i {
+  background: #7c7c7c2b;
+  width: 40px;
+  height: 40px;
+  padding: 2px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 17px;
+}
+
+.inputs > i:hover {
+  background: #565656;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.degree {
+  font-size: 35px;
+}
+
+.Humidity, .wind-speed {
+  font-size: 17px;
+}
